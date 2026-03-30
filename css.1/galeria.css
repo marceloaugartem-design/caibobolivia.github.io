@@ -1,70 +1,155 @@
-/* ===== GENERAL ===== */
-body{
-    font-family: Arial;
-    background: #f5e6d3;
+body {
+        background-color: #4b190a;
+        font-family: Arial;
+        padding-top: 90px;
+      }
+      header {
+        background-color: #4b190a;
+        margin-top: -20px;
+      }
+      .navbar {
+        background-color: #2d1b17;
+        padding: 15px 0;
+      }
+      .nav-link {
+        color: white !important;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+      .navbar-brand {
+        color: white !important;
+        font-weight: bold;
+        font-size: 22px;
+      }
+      .navbar.fixed-top {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      }
+      .navbar-collapse {
+        text-align: center;
+      }
+      .navbar-nav {
+        margin: auto;
+      } /* VIDEO */
+      .video-container video {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
+      .section {
+        padding: 60px 0;
+      }
+      .section h2 {
+        color: #3e2723;
+        font-weight: bold;
+        margin-bottom: 20px;
+      } /* CUADROS */
+      .box-section {
+        border: 2px solid #d7ccc8;
+        border-radius: 15px;
+        padding: 25px;
+        margin-bottom: 30px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+      .box-section:hover {
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+      } /* FOOTER */
+      .footer-pro {
+        background-color: #2d1b17;
+        color: #d7ccc8;
+        padding: 60px 0 20px 0;
+        text-align: center;
+      }
+      .footer-pro h5 {
+        color: white;
+        margin-bottom: 15px;
+      }
+      .footer-pro p {
+        margin-bottom: 8px;
+      }
+      .footer-pro .row {
+        justify-content: center;
+        text-align: center;
+      }
+      .footer-pro img {
+        display: block;
+        margin: 0 auto 10px auto;
+        transition: 0.3s;
+      }
+      .footer-pro img:hover {
+        transform: scale(1.1);
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      .social img {
+        width: 30px;
+        cursor: pointer;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-mox-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .social-bar {
+        position: fixed;
+        left: 0;
+        top: 120px;
+        z-index: 2000;
+      }
+      
+.social-bar a {
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 5px;
+  transition: all 0.3s;
+  display: block;
 }
 
-/* ===== NAVBAR ===== */
-.navbar{
-    background: #2c1b12;
+.social-bar a:hover {
+  transform: translateX(10px);
+}
+      .social-bar ul li a {
+        
+        color: #fff;
+        background: #000;
+        
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 0px 10px 10px 0px;
+      }
+      
+      .icon-instagram1 {
+  background: #4d0f01;
+  color: white;
 }
 
-.nav-link{
-    color: #f5e6d3 !important;
+.icon-spotify {
+  background: #4d0f01;
+  color: white;
 }
 
-/* ===== GALERIA ===== */
-.galeria img{
-    border-radius: 12px;
-    transition: 0.3s;
+.icon-tiktok {
+  background: #4d0f01;
+  color: white;
 }
 
-
-
-/* ===== TITULOS ===== */
-h2{
-    color: #6b3e26;
+.icon-x {
+  background: #4d0f01;
+  color: white;
 }
 
-/* ===== CONTACTO ===== */
-.Contacto input,
-.Contacto textarea{
-    border-radius: 10px;
-    border: 1px solid #a47148;
-    margin-bottom: 10px;
+.icon-youtube1 {
+  background: #4d0f01;
+  color: white;
 }
-
-/* ===== FOOTER ===== */
-.Foot{
-    background: #2c1b12;
-    color: #f5e6d3;
-    padding: 20px;
-}
-
-.Foot h4{
-    color: #a47148;
-}
-/* FOOTER MEJORADO */
-.Foot{
-    background: #2c1b12;
-    color: #f5e6d3;
-    padding: 40px 0;
-}
-
-.Foot h5{
-    color: #a47148;
-    margin-bottom: 15px;
-}
-
-.Foot a{
-    color: #f5e6d3;
-    text-decoration: none;
-}
-
-.Foot a:hover{
-    color: #a47148;
-}
-
-.Foot hr{
-    border-color: rgba(255,255,255,0.2);
-}
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
