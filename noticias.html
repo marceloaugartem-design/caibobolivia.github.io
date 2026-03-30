@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title>CEIBO Chocolate</title>
+    <style>
+      body {
+        background-color: #4b190a;
+        font-family: Arial;
+        padding-top: 90px;
+      }
+      header {
+        background-color: #4b190a;
+        margin-top: -20px;
+      }
+      .navbar {
+        background-color: #2d1b17;
+        padding: 15px 0;
+      }
+      .nav-link {
+        color: white !important;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+      .navbar-brand {
+        color: white !important;
+        font-weight: bold;
+        font-size: 22px;
+      }
+      .navbar.fixed-top {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      }
+      .navbar-collapse {
+        text-align: center;
+      }
+      .navbar-nav {
+        margin: auto;
+      } /* VIDEO */
+      .video-container video {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
+      .section {
+        padding: 60px 0;
+      }
+      .section h2 {
+        color: #3e2723;
+        font-weight: bold;
+        margin-bottom: 20px;
+      } /* CUADROS */
+      .box-section {
+        border: 2px solid #d7ccc8;
+        border-radius: 15px;
+        padding: 25px;
+        margin-bottom: 30px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+      .box-section:hover {
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+      } /* FOOTER */
+      .footer-pro {
+        background-color: #2d1b17;
+        color: #d7ccc8;
+        padding: 60px 0 20px 0;
+        text-align: center;
+      }
+      .footer-pro h5 {
+        color: white;
+        margin-bottom: 15px;
+      }
+      .footer-pro p {
+        margin-bottom: 8px;
+      }
+      .footer-pro .row {
+        justify-content: center;
+        text-align: center;
+      }
+      .footer-pro img {
+        display: block;
+        margin: 0 auto 10px auto;
+        transition: 0.3s;
+      }
+      .footer-pro img:hover {
+        transform: scale(1.1);
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      .social img {
+        width: 30px;
+        cursor: pointer;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-mox-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .social-bar {
+        position: fixed;
+        left: 0;
+        top: 120px;
+        z-index: 2000;
+      }
+      
+.social-bar a {
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 5px;
+  transition: all 0.3s;
+  display: block;
+}
+
+.social-bar a:hover {
+  transform: translateX(10px);
+}
+      .social-bar ul li a {
+        
+        color: #fff;
+        background: #000;
+        
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 0px 10px 10px 0px;
+      }
+      
+      .icon-instagram1 {
+  background: #4d0f01;
+  color: white;
+}
+
+.icon-spotify {
+  background: #4d0f01;
+  color: white;
+}
+
+.icon-tiktok {
+  background: #4d0f01;
+  color: white;
+}
+
+.icon-x {
+  background: #4d0f01;
+  color: white;
+}
+
+.icon-youtube1 {
+  background: #4d0f01;
+  color: white;
+}
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="text-center text-white p-4">
+      <h1>Chocolate CEIBO</h1>
+      <h1><p>El mejor cacao de Bolivia 🍫</p></h1>
+    </header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/LogoCeibo.png" height="100" width="150" />
+        </a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="menu">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienessomos.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="inicio">
+      <div class="video-container">
+        <video autoplay muted loop>
+          <source
+            src="WhatsApp Video 2026-03-20 at 17.14.00.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+    <section id="noticias" class="section container">
+
+  <!-- TITULO -->
+  <div class="text-center mb-5">
+    <h2 class="fw-bold text-white">Noticias</h2>
+    <p class="text-light">Novedades y actividades de CEIBO</p>
+  </div>
+
+  <div class="row">
+
+    <!-- NOTICIA 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="box-section h-100">
+        <img src="imagenes/noticias1.jpg" class="img-fluid rounded mb-3">
+        <h5>Lanzamiento de Nuevo Chocolate</h5>
+        <p>
+          CEIBO presenta una nueva línea de chocolates premium con sabores únicos.
+        </p>
+      </div>
+    </div>
+
+    <!-- NOTICIA 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="box-section h-100">
+        <img src="imagenes/noticias2.jpg" class="img-fluid rounded mb-3">
+        <h5>Participación en Feria</h5>
+        <p>
+          Estuvimos presentes en una feria nacional promoviendo el cacao boliviano.
+        </p>
+      </div>
+    </div>
+
+    <!-- NOTICIA 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="box-section h-100">
+        <img src="imagenes/noticias3.jpg" class="img-fluid rounded mb-3">
+        <h5>Apoyo a Productores</h5>
+        <p>
+          Trabajamos con comunidades locales para fortalecer la producción sostenible.
+        </p>
+      </div>
+    </div>
+
+    <!-- NOTICIA 4 -->
+    <div class="col-md-4 mb-4">
+      <div class="box-section h-100">
+        <img src="imagenes/noticias4.jpg" class="img-fluid rounded mb-3">
+        <h5>Proceso de Elaboración</h5>
+        <p>
+          Nuestro proceso combina tradición y tecnología para lograr calidad.
+        </p>
+      </div>
+    </div>
+
+    <!-- NOTICIA 5 -->
+    <div class="col-md-4 mb-4">
+      <div class="box-section h-100">
+        <img src="imagenes/noticias5.jpg" class="img-fluid rounded mb-3">
+        <h5>Reconocimiento</h5>
+        <p>
+          CEIBO ha sido reconocido por su compromiso con la calidad.
+        </p>
+      </div>
+    </div>
+
+    <!-- NOTICIA 6 -->
+    <div class="col-md-4 mb-4">
+      <div class="box-section h-100">
+        <img src="imagenes/noticias6.jpg" class="img-fluid rounded mb-3">
+        <h5>Nuevos Proyectos</h5>
+        <p>
+          Estamos desarrollando nuevos productos innovadores.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+    <footer class="footer-pro">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-4">
+            <img src="imagenes/LogoCeibo.png" style="max-width: 120px" />
+            <p>Chocolate boliviano de alta calidad.</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <h5>Empresa</h5>
+            <p>✔ Comercio justo</p>
+            <p>✔ Producción sostenible</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <h5>Contacto</h5>
+            <p>ceibo@email.com</p>
+            <p>+591 70000000</p>
+            <div class="social">
+              <img src="imagenes/X.png" /> <img src="imagenes/instagram.png" />
+              <img src="imagenes/facebook-new.png" />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p>© 2026 CEIBO - Chocolate Boliviano</p>
+      </div>
+    </footer>
+    
+    </style>
+<div class="social-bar d-flex flex-column">
+  <a href="#" class="btn icon-instagram1"><img src="imagenes/instagram.png" width="30" height="30"></a>
+  <a href="#" class="btn icon-spotify"><img src="imagenes/facebook-new.png" width="30" height="30"></a>
+  <a href="#" class="btn icon-tiktok"><img src="imagenes/X.png" width="30" height="30"></a>
+  <a href="#" class="btn icon-x"><img src="imagenes/Youtube_Rounded_Solid_icon-icons.com_61558.png" width="30" height="30"></a>
+  <a href="#" class="btn icon-youtube1"><img src="imagenes/w.png"width="30" height="30"></a>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
